@@ -1,0 +1,62 @@
+@import 'utils/reset';
+@import 'utils/variables';
+@import 'utils/components';
+@import 'home/home';
+@import 'header';
+@import 'about';
+@import 'features';
+
+
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+// писать по убыванию
+// подключать файл в самом конце
+// писать только те свойства которые хотите изменить
+
+@media (max-width: 1100px) {
+    .features {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 700px) {
+    .header__logo {
+        margin-right: 0;
+    }
+
+    .header__button {
+        margin-left: 0;
+    }
+
+    .home__img {
+        display: none;
+    }
+
+    .container {
+        padding: 0 10px;
+    }
+
+    .features {
+        padding: 40px 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .header {
+        gap: 20px;
+    }
+    .nav {
+        display: none;
+    }
+
+    .features__item {
+        width: auto;
+    }
+}

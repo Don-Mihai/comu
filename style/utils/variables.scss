@@ -1,0 +1,14 @@
+$header-height: 100px;
+
+
+
+@mixin flex-center() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex-gap($variable) {
+    display: flex;
+    gap: $variable;
+}

@@ -1,0 +1,32 @@
+.features {
+  display: flex;
+  justify-content: space-between;
+  padding: 84px 0 120px 0;
+}
+
+.features__item {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  align-items: center;
+  width: 363px;
+  height: 250px;
+  padding: 40px 34px;
+  border-radius: 44px;
+  background: linear-gradient(314deg, #F5F2EB 0%, #F7E6CB 100%);
+  box-shadow: 5px 5px 13px 0px #DD8762;
+}
+
+.features__img {
+  height: 76px;
+}
+
+.features__title {
+  color: #37474F;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.features__text {
+  text-align: center;
+}/*# sourceMappingURL=index.css.map */

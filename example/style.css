@@ -1,0 +1,25 @@
+.position {
+    display: flex;
+    height: 3000px;
+}
+
+.content {
+    width: 50%;
+    height: 500px;
+    background-color: red;
+}
+
+.img-container {
+    position: relative;
+    width: 50%;
+    height: 500px;
+    background-color: grey;
+}
+
+.image {
+    position: absolute;
+    left: -40px;
+    top: 50px;
+    height: 300px;
+    z-index: 1;
+}

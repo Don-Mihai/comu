@@ -1,0 +1,25 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.about__content {
+  width: 456px;
+}
+
+.about__title {
+  color: #455A64;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 126%;
+}
+
+.about__text {
+  color: #535359;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 148.2%;
+  letter-spacing: 0.5px;
+}/*# sourceMappingURL=index.css.map */
