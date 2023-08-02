@@ -255,6 +255,7 @@ button, input, optgroup, select, textarea {
   font-weight: 700;
 }
 .home__img {
+  display: none;
   width: 50%;
   height: auto;
 }
