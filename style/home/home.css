@@ -1,6 +1,10 @@
 .home {
   margin-top: 100px;
   background: #F7E6CC;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 0.3s;
 }
 .home__container {
   display: flex;

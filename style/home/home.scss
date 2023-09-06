@@ -3,6 +3,10 @@
 .home {
     margin-top: $header-height;
     background: #F7E6CC;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.3s;
 
     &__container {
         display: flex;
