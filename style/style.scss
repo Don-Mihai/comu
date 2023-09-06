@@ -8,8 +8,6 @@
 
 
 
-
-
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -18,7 +16,7 @@ body {
 // подключать файл в самом конце
 // писать только те свойства которые хотите изменить
 
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
     .features {
         flex-wrap: wrap;
         justify-content: center;
@@ -26,7 +24,7 @@ body {
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1024px) {
     .header__logo {
         margin-right: 0;
     }
@@ -48,7 +46,7 @@ body {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .header {
         gap: 20px;
     }
@@ -61,5 +59,13 @@ body {
         width: auto;
     }
 
+    .hamburger-menu {
+        display: block;
+    }
+
     // lorem
+}
+
+@media screen and (max-width: 480px) {
+
 }

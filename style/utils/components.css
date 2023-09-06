@@ -54,4 +54,7 @@
   to {
     transform: rotate(0) scale(3);
   }
+}
+.show {
+  display: block !important;
 }/*# sourceMappingURL=components.css.map */

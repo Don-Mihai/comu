@@ -18,8 +18,28 @@
             <span class="logo__text">COMU</span>
         </div>
 
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox">
+            <label class="menu__btn" for="menu__toggle">
+                <div></div>
+                <div></div>
+                <div></div>
+            </label>
+
+            <ul class="menu__box">
+                <li><a class="menu__item" href="#click1">home</a></li>
+                <li><a class="menu__item" href="#click2">about us</a></li>
+                <li><a class="menu__item" href="#click3">portfolio</a></li>
+                <li><a class="menu__item" href="#click4">team</a></li>
+                <li><a class="menu__item" href="#click5">news</a></li>
+                <li><a class="menu__item" href="#click6">contact</a></li>
+                <li><a class="menu__item" href="#click7" id="last_child-menu">other pages</a></li>
+            </ul>
+
+        </div>
+
         <nav class="nav">
-            <a class="link" href="#">Home</a>
+            <a class="link" href="#home">Home</a>
             <a class="link" href="#about">About </a>
             <a class="link" href="#">Auth Pagea</a>
             <a class="link" href="#">Features</a>
@@ -31,7 +51,7 @@
 
     </header>
 
-    <section class="home">
+    <section id="home" class="home">
         <div class="home__container container">
             <div class="home__content">
                 <h2 class="home__title title">
@@ -54,7 +74,7 @@
         </div>
     </section>
 
-    <section class="features container">
+    <section id="about" class="features container">
         <div class="features__item">
             <img class="features__img" src="images/icon1.png" alt="">
             <h3 class="features__title">Quick Access</h3>
@@ -70,6 +90,7 @@
             <h3 class="features__title">Easy Integration</h3>
             <p class="features__text">Feugiat primis ultrice a semper lacus cursus feugiat a primis ultrice a ligula risus auctor </p>
         </div>
+        
     </section>
 
     <section class="about container">
@@ -81,7 +102,9 @@
             </p>
         </div>
     </section>
+    <div class="result"></div>
 
+    <script src="script.js" async></script>
 </body>
 
 </html>
